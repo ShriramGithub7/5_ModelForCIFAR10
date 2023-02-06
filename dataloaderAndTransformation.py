@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP7kSjt4UZ5mUBj8Yk8bDNs"
+      "authorship_tag": "ABX9TyPlAE4qz/ZjKD8JuXXqLObb"
     },
     "kernelspec": {
       "name": "python3",
@@ -26,24 +26,11 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 6,
+      "execution_count": 8,
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "_tX5OkcW6UTD",
-        "outputId": "511551b5-6a59-46e0-c352-e0703aa99696"
+        "id": "_tX5OkcW6UTD"
       },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Files already downloaded and verified\n",
-            "Files already downloaded and verified\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "import torch\n",
         "import torchvision\n",
@@ -52,6 +39,8 @@
         "import albumentations as A\n",
         "\n",
         "class DataTransform():\n",
+        "  def __init__(self):\n",
+        "    super(DataTransform, self).__init__()\n",
         "    mean=(0.4914, 0.4822, 0.4465)\n",
         "    std=(0.2023, 0.1994, 0.2010)\n",
         "\n",
