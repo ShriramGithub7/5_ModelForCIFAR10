@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOGTYK8fuZkvpS/PWY4Cx4+",
+      "authorship_tag": "ABX9TyPfNZPNLRhIz/5pAw/ytsod",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 2,
       "metadata": {
         "id": "vUoBs-USLFgk"
       },
@@ -40,6 +40,7 @@
         "import albumentations as A\n",
         "import numpy as np\n",
         "import torch.nn as nn\n",
+        "import torch.nn.functional as F\n",
         "\n",
         "class Net(nn.Module):\n",
         "    def __init__(self):\n",
