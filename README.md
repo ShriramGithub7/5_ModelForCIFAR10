@@ -1,3 +1,16 @@
+# Problem Statement:
+Build a CNN which satisfies below conditions:
+  - total RF must be more than 44
+  - use Depthwise Separable Convolution, Dilated Convolution, GAP (compulsory), albumentation with techniques
+    -  horizontal flip
+    -  shiftScaleRotate
+    -  coarseDropout
+    -  
+# Expected Output:
+  - Achieve 85% accuracy, with less than 200k parameters. No restrictions on number of epochs
+
+
+
 # Training logs
 
 
@@ -284,3 +297,7 @@
              Test set: Average loss: 0.2057   Accuracy: 7180/10000 (71.80%)     
                 
          
+# Graphs: Test Accuracy
+
+![image](https://user-images.githubusercontent.com/93775361/217713950-4fbc796c-85e3-4b13-9f56-e976fdc20426.png)
+
